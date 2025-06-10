@@ -37,7 +37,7 @@ p{
     padding: 10px;
 }
 .top{
-    background-image: url(C:\ojt\OJT3_Project\ojt3_project\public\Images\vcknew.jpg);
+    background-image: url("/Images/vcknew.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
