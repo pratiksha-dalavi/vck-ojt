@@ -1,27 +1,3 @@
-
-/* Responsive */
-@media (max-width: 768px) {
-  .nav {
-    display: none;
-  }
-  .hamburger {
-    display: block;
-  }
-}
-@media (max-width: 768px) {
-  .flex-row {
-    flex-direction: column;
-  }
-  .some-image {
-    width: 100%;
-    height: auto;
-  }
-  .button {
-    width: 100%;
-    padding: 1rem;
-  }
-}
-
 .navbar{
     background-color: rgb(17, 92, 232);
     padding: 5px 40px;
@@ -114,15 +90,4 @@
 }
 .menu a:hover{
     color: blue;
-}
-@media(min-width:768px){
-    .hamburger{
-        display:flex;
-    }
-
-.menu{
-    display:flex;
-    flex-direction: column;
-
-}
 }
