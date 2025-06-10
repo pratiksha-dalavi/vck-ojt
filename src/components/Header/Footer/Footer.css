@@ -1,0 +1,26 @@
+.footer{
+    background-color:rgb(67, 55, 55);
+    color: white;
+    
+    padding: 1px;
+    margin-top: 50px;
+    font-size: large;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 1000;
+    
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    word-spacing:normal;
+    position: fixed;
+    
+    
+
+    
+}

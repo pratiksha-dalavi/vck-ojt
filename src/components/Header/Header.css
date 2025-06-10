@@ -1,0 +1,128 @@
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .flex-row {
+    flex-direction: column;
+  }
+  .some-image {
+    width: 100%;
+    height: auto;
+  }
+  .button {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+.navbar{
+    background-color: rgb(17, 92, 232);
+    padding: 5px 40px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    word-spacing: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    z-index: 1000;
+    font-size: xx-large;
+    gap: 20px;
+    padding: 10px 5px;
+    color: white;
+    
+}
+.navbar a:hover{
+    color: blue;
+}
+.name{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    word-spacing: 10px;
+}
+
+.button{
+    background-color: rgb(44, 173, 44);
+    color:white;
+    border-radius: 10px;
+    word-spacing: normal;
+    
+    box-sizing: border-box;
+    
+}
+.n{
+    color: white;
+    font-size: large;
+    
+}
+.j{
+    background-color: aqua;
+    position: fixed;
+
+    display: flex;
+    
+    
+}
+.hamburger{
+    width:30px;
+    cursor:pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22px;
+    margin-right: auto;
+    z-index: 1001;
+
+}
+.bar{
+    height: 3px;
+    width: 100%;
+    background-color: #fcfafa;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 15px;
+    position: absolute;
+    top:60px;
+    left:10px;
+    color: white;
+    border-radius: 5px;
+    z-index: 1000;
+    gap: 10px;
+}
+.menu  a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.menu a:hover{
+    color: blue;
+}
+@media(min-width:768px){
+    .hamburger{
+        display:flex;
+    }
+
+.menu{
+    display:flex;
+    flex-direction: column;
+
+}
+}
