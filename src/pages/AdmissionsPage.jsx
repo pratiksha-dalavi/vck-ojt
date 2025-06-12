@@ -58,3 +58,7 @@ const AdmissionsPage =() => {
     )
 }
 export default AdmissionsPage;
+
+
+
+

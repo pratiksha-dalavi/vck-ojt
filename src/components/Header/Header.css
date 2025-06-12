@@ -1,13 +1,13 @@
-.navbar{
+ .navbar{
     background-color: rgb(17, 92, 232);
     padding: 5px 40px;
     display: flex;
     justify-content: space-between;
-    text-decoration: none;
+    
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
-    word-spacing: 40px;
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -82,4 +82,4 @@
 }
 .menu a:hover{
     color: blue;
-}
+} 
