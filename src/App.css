@@ -41,9 +41,21 @@
   color: #888;
 }
 
+.content{
+  background-color: #52d2d2;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
 
+}
 
-
+html,
+body{
+  margin:0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
 
 
 

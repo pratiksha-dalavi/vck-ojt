@@ -5,7 +5,7 @@ const Footer =() =>{
     return(
         <footer className="footer">
             
-                <p>© 2025 Vivekanand College.All rights reserved.</p>
+                <p className="q">© 2025 Vivekanand College.All rights reserved.</p>
             
                 
         </footer>

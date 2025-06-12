@@ -1,7 +1,6 @@
 import React, { useState} from "react"
 import{ Link } from "react-router-dom";
 import './Header.css';
-
 const Header = () => {
     const [isOpen,setIsOpen]=useState(false)
     return(
@@ -20,7 +19,7 @@ const Header = () => {
                 <Link to="/aboutpage" className="n">About</Link>
                 <Link to="/coursespage" className="n">Courses</Link>
                 <Link to="/contactpage" className="n">Contact</Link>
-                <Link to="/admissionspage"></Link>           
+                <Link to="/admissionspage"></Link>
               <Link to="/admissionpage" className="button">Apply Now!</Link>
                 </div>
                 )
@@ -30,11 +29,10 @@ const Header = () => {
                      <Link to="/aboutpage" className="n">About</Link>
                 <Link to="/coursespage" className="n">Courses</Link>
                 <Link to="/contactpage" className="n">Contact</Link>
-                <Link to="/admissionspage"></Link>           
+                <Link to="/admissionspage"></Link>
               <Link to="/admissionpage" className="button">Apply Now!</Link>
                 </div>
         </nav>
-       
         </header>
     )
 }

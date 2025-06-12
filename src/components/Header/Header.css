@@ -18,7 +18,6 @@
     gap: 20px;
     padding: 10px 5px;
     color: white;
-    
 }
 .navbar a:hover{
     color: blue;
@@ -29,28 +28,21 @@
     font-weight: bold;
     word-spacing: 10px;
 }
-
 .button{
     background-color: rgb(44, 173, 44);
     color:white;
     border-radius: 10px;
     word-spacing: normal;
-    
     box-sizing: border-box;
-    
 }
 .n{
     color: white;
     font-size: large;
-    
 }
 .j{
     background-color: aqua;
     position: fixed;
-
     display: flex;
-    
-    
 }
 .hamburger{
     width:30px;
@@ -61,12 +53,11 @@
     height: 22px;
     margin-right: auto;
     z-index: 1001;
-
 }
 .bar{
     height: 3px;
     width: 100%;
-    background-color: #fcfafa;
+    background-color: #FCFAFA;
     border-radius: 2px;
     transition: all 0.3s ease;
 }
@@ -87,6 +78,7 @@
     color: white;
     text-decoration: none;
     font-size: 16px;
+    
 }
 .menu a:hover{
     color: blue;

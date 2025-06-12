@@ -8,7 +8,7 @@ import Footer from "../components/Header/Footer/Footer";
 
 const AdmissionsPage =() => {
     return(
-        <div  className="main">
+        <div  className="page-container">
             <Header/>
             <div id="scroller">
                 <h1 className="h">Admissions at Vivekanand College</h1>

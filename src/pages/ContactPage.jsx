@@ -6,7 +6,7 @@ import Footer from "../components/Header/Footer/Footer";
 
 const ContactPage = () => {
     return(
-        <div className="main">
+        <div className="page-container">
             <Header/>
             <div id="scroller">
               <h1 className="h">Contact Us</h1>  

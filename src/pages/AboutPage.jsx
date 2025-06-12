@@ -6,7 +6,7 @@ import Footer from "../components/Header/Footer/Footer";
 
 const AboutPage =() => {
     return(
-        <div className="main" >
+        <div className="page-container" >
             <Header/>
             <div id="scroller">
                 <h1 className="h">About Vivekanand College</h1>

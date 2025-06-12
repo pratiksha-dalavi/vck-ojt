@@ -8,16 +8,21 @@ import Footer from "../components/Header/Footer/Footer";
 
 const CoursesPage =() => {
     return(
-        <div className="main">
+        <div className="page-container">
             <Header/>
             <div id="scroller">
                 <h1 className="h">Our Academic Programs  </h1>
                 <p className="p">Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
-                <h2 className="h1">Discover Campus Life</h2>
-                <p>Get a glimpse of the vibrant academic and social life at Vivekanand College.</p>
+               <h2 className="h1">Discover Campus Life</h2>
+                <div className="video-container">
                 <video width="600 " height ="400" controls>
                     <source src="\Videos\college-tour-FAmcnyfF.mp4"/>
                 </video>
+                <p className="video-caption">
+                 Get a glimpse of the vibrant academic and social life at Vivekanand College.
+                 </p>
+                </div>
+                
                 <h2 className="h1">Undergraduate Programs (UG)</h2>
                 <ul className="u">
                     <li>Bachelor of Science (B.Sc.)</li>

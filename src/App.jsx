@@ -5,20 +5,28 @@ import AboutPage from "./pages/AboutPage"
 import CoursesPage from "./pages/CoursesPage"
 import ContactPage from "./pages/ContactPage"
 import AdmissionPage from "./pages/AdmissionsPage"
+import ChatbotComponent from "./components/Chatbot/ChatbotComponents"
+
 
 const App = () => {
     return(
-        <div>
             <Router>
-                <Routes>
-                    <Route path="/" element={<HomePage/>}/>
-                    <Route path="/aboutpage" element={<AboutPage/>}/>
-                    <Route path="/coursespage" element={<CoursesPage/>}/>
-                    <Route path="/contactpage" element={<ContactPage/>}/>
-                    <Route path="/admissionpage" element={<AdmissionPage/>}/>
-                </Routes>
-            </Router>
-        </div>
+                <div className="main-layout">
+                    
+                    <div className="content">
+                    <Routes>
+                        <Route path="/" element={<HomePage/>}/>
+                        <Route path="/aboutpage" element={<AboutPage/>}/>
+                        <Route path="/coursespage" element={<CoursesPage/>}/>
+                        <Route path="/contactpage" element={<ContactPage/>}/>
+                        <Route path="/admissionpage" element={<AdmissionPage/>}/>
+                    </Routes>
+                    </div>
+                    <ChatbotComponent/>
+                    
+                    </div>
+                </Router>
+            
     )
 }
 export default App;

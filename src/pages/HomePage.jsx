@@ -8,24 +8,23 @@ import Footer from "../components/Header/Footer/Footer";
 const HomePage =() => {
     return (
         
-        <div  className="main">
+        <div  className="page-container">
             
             <Header/>
                 
                  <div id="scroller">
-                
-                <div className="top">
-                
-                 <h1 className="t">Welcome to Vivekanand College!</h1>
-                 <h2> Your journey to excellence starts here.</h2>
-                 <div className="button-container"> 
-                    <Link to="/admissionpage" className=" apply-button">Apply Now!</Link>
-
-                </div>
-
-                  </div>
-            
-            
+                     <div className="hero-section">
+                     <img
+                              src="/Images/college-banner.png"
+                             alt="Vivekanand College Campus"
+                            className="hero-banner-image"
+                            />
+                            <div className="hero-overlay-text">
+                            <h1>Welcome to Vivekanand College!</h1>
+                            <p>Your journey to excellence starts here.</p>
+                            <Link to="/admissionpage" className=" apply-button">Apply Now!</Link>
+                            </div>
+                        </div>
                  <p className="p">**Vivekanand College is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in [Year of Establishment, e.g., 1980], we have proudly served generations of students, empowering them to achieve their full potential.</p>
                  <p className="p">At Vivekanand College, we believe in a vibrant learning environment that extends beyond textbooks. Our state-of-the-art facilities, experienced faculty, and diverse student community create a unique ecosystem where curiosity thrives and future leaders are shaped.</p>
                     <h2 className="h1">Why Choose Vivekanand College?</h2>

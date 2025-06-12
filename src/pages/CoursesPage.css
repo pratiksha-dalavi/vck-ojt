@@ -5,3 +5,40 @@
 table{
     border-collapse: collapse;
 }
+.main{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   background-color: #f4f7f6;
+
+    
+}
+.video-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #000;
+  /* Black background for video */
+  border-radius: 8px;
+  overflow: hidden;
+  /* Ensures video corners are rounded */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-video {
+  display: block;
+  /* Remove extra space below video */
+  max-width: 100%;
+  /* Ensure it's responsive */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+.video-caption {
+  text-align: center;
+  padding: 10px;
+  color: #777;
+  font-style: italic;
+  background-color: #F0F0F0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
