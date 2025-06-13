@@ -42,10 +42,10 @@ const Header = () => {
         </nav>
             <div className={`mobile-menu ${menuOpen ? 'show' : ''}`}>
         <Link to="/" onClick={closeMenu} className="mobile-link">Home</Link>
-        <Link to="/about" onClick={closeMenu} className="mobile-link">About</Link>
-        <Link to="/courses" onClick={closeMenu} className="mobile-link">Courses</Link>
-        <Link to="/contact" onClick={closeMenu} className="mobile-link">Contact</Link>
-        <Link to="/apply" onClick={closeMenu} className="mobile-apply">Apply Now!</Link>
+        <Link to="/aboutpage" onClick={closeMenu} className="mobile-link">About</Link>
+        <Link to="/coursespage" onClick={closeMenu} className="mobile-link">Courses</Link>
+        <Link to="/contactpage" onClick={closeMenu} className="mobile-link">Contact</Link>
+        <Link to="/admissionpage" onClick={closeMenu} className="mobile-apply">Apply Now!</Link>
       </div>
 
 
@@ -54,8 +54,6 @@ const Header = () => {
     )
 }
 export default Header;
-
-
 
 
 

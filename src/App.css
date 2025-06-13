@@ -94,6 +94,7 @@ body{
   padding-bottom: 350px;
   position: fixed;
   
+  
 }
 
 /* Keep any general body/html resets or root styles here if they exist */
@@ -101,7 +102,7 @@ html,
 body  {
   
   margin: 0;
-  overflow: hidden;
+  
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
